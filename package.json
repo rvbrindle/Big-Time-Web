@@ -1,0 +1,15 @@
+{
+  "name": "bigtime",
+  "version": "1.0.0",
+  "description": "bigtime events and entertainment site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/main.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harvey brindle",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
