@@ -4,12 +4,20 @@
   "description": "bigtime events and entertainment site",
   "main": "index.js",
   "scripts": {
-    "compile:sass":"node-sass sass/main.scss css/main.css -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "harvey brindle",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.12.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvbrindle/Big-Time-Web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rvbrindle/Big-Time-Web/issues"
+  },
+  "homepage": "https://github.com/rvbrindle/Big-Time-Web#readme"
 }
