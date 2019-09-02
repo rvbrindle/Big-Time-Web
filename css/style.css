@@ -29,6 +29,16 @@
 * {
   font-family: 'Roboto', sans-serif; }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to left, #c64348, #7e191c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; }
+
 *,
 *::before,
 *::after {
@@ -42,6 +52,12 @@ html {
 body {
   padding: 3rem;
   box-sizing: border-box; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-8 {
+  margin-bottom: 8rem; }
 
 .btn:link, .btn:visited {
   text-decoration: none;
@@ -83,7 +99,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #ffffff;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -92,7 +107,6 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: red;
     float: left; }
   .row .col-1-of-2 {
     width: calc((100% - 3rem) / 2); }
@@ -146,3 +160,8 @@ body {
     letter-spacing: .5rem;
     animation: moveInRight 2s ease-in;
     margin-bottom: 2rem; }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 35rem 0;
+  margin-top: -25vh; }
