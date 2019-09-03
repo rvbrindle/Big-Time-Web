@@ -3,3 +3,27 @@
     padding: 35rem 0;
     margin-top: -25vh;
 }
+
+.section-features {
+    margin-top: -10rem; 
+    padding: 20rem 0rem;
+    background-image: linear-gradient(
+        to right,
+        rgba($color-primary, 0.8),
+        rgba($color-primary-light, 0.8)),
+        url('../img/weddingParty.jpg');
+    background-size: cover;
+    background-position: center;
+
+    transform: skewY(-7deg);
+
+    & > * {
+        transform: skewY(7deg);
+    }
+}
+
+.section-options {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 50rem 0;
+    margin-top: -10rem;
+}
