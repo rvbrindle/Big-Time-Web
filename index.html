@@ -5,11 +5,30 @@
     <!-- <link rel ='stylesheet' type='text/css' href ='css/normalize.css'> -->
     <!-- <link rel='shortcut icon' type='image/x-icon' href='favi.ico' /> -->
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
     <title> Big Time Events & Entertainment </title>
 </head>
 <body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__btn">
+            <span class="navigation__icon">
+                &nbsp;
+            </span>
+        </label>
 
+        <div class="navigation__background"> &nbsp; </div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Services</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Stories</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Enquiries</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class='header'>
         <div class='header__logo-box'>
             <img src='img/logo.png' alt='Logo' class='header__logo'>
@@ -96,6 +115,7 @@
                 </div>
             </div>
         </section>
+
         <section class="section-options">
             <div class="u-center-text u-margin-bottom-large">
                 <h2 class="heading-secondary">
@@ -103,45 +123,214 @@
                 </h2>
             </div>
             <div class="row">
-                <div>
-                    <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side card__side--front">
-                                Front
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1"> 
+                                &nbsp;
                             </div>
-                            <div class="card__side card__side--back card__side--back-1">
-                                Back
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">
+                                        Solo & Duo
+                                </span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Peferce fot intimate</li>
+                                    <li>Minimal Space</li>
+                                    <li>Outdoor Friendly</li>
+                                    <li>YAHAA</li>
+                                    <li>YADADYA</li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-1-of-3">
+                        <div class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Only</p>
+                                    <p class="card__price-value">£750</p>
+                                </div>
+                                <a href="#" class="btn btn--white">Book Now</a>
+                            </div>
+                        </div>
+                    </div> <!--close card-->
+                </div> <!--close col-->
+
+                <div class="col-1-of-3">
                         <div class="card">
                             <div class="card__side card__side--front">
-                                Front
+                                <div class="card__picture card__picture--2"> 
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">
+                                            Full Band
+                                    </span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Peferce fot intimate</li>
+                                        <li>Minimal Space</li>
+                                        <li>Outdoor Friendly</li>
+                                        <li>YAHAA</li>
+                                        <li>YADADYA</li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="card__side card__side--back card__side--back-2">
-                                Back
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Only</p>
+                                        <p class="card__price-value">£1550</p>
+                                    </div>
+                                    <a href="#" class="btn btn--white">Book Now</a>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        </div> <!--close card-->
+                    </div> <!--close col-->
+
                     <div class="col-1-of-3">
                             <div class="card">
                                 <div class="card__side card__side--front">
-                                    Front
+                                    <div class="card__picture card__picture--3"> 
+                                        &nbsp;
+                                    </div>
+                                    <h4 class="card__heading">
+                                        <span class="card__heading-span card__heading-span--3">
+                                                Solo Piano
+                                        </span>
+                                    </h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>Peferce fot intimate</li>
+                                            <li>Minimal Space</li>
+                                            <li>Outdoor Friendly</li>
+                                            <li>YAHAA</li>
+                                            <li>YADADYA</li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="card__side card__side--back card__side--back-3">
-                                    Back
+                                    <div class="card__cta">
+                                        <div class="card__price-box">
+                                            <p class="card__price-only">Only</p>
+                                            <p class="card__price-value">£750</p>
+                                        </div>
+                                        <a href="#" class="btn btn--white">Book Now</a>
+                                    </div>
+                                </div>
+                            </div> <!--close card-->
+                        </div> <!--close col-->
+            </div> <!-- close row-->
+
+            <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn btn--red">Discover All Packages</a>
+            </div>
+        </section>
+        <section class="section-stories">
+            <div class="u-center-text u-margin-bottom-large">
+                <h2 class="heading-secondary">
+                    Stories from past weddings
+                </h2>
+            </div>
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="img/wedding-story-1.jpg" alt="wedding image" class='story__img'>
+                        <figcaption class="story__caption">MARY SMITH</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            I had the best time ever
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi qui inventore
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi qui inventore
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi qui inventore
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi qui inventore
+                        </p>
+                    </div>
+                </div> <!-- story closing-->
+            </div>
+            <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="img/wedding-story-1.jpg" alt="wedding image" class='story__img'>
+                            <figcaption class="story__caption">MARY SMITH</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                I had the best time ever
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi qui inventore
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi qui inventore
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi qui inventore
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi qui inventore
+                            </p>
+                        </div>
+                    </div> <!-- story closing-->
+                </div>
+                <div class="u-center-text u-margin-top-large">
+                    <a href="#" class="btn-text">Find Out More &rarr;</a>
+                </div>
+        </section>
+        <section class="section-booking">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium">
+                                    <h2 class="heading-secondary">
+                                        Enquiries
+                                    </h2>
+                                </div>
+
+                            <div class="form__group">
+                                <input type="text" class='form__input' placeholder='Full Name' id='name' required>
+                                <label for="name" class="form__label">Full Name</label>
+                            </div>
+
+                            <div class="form__group">
+                                <input type="email" class='form__input' placeholder='Email Address' id='email' required>
+                                <label for="email" class="form__label">Email</label>
+                            </div>
+
+                            <div class="form__group u-margin-bottom-medium">
+                                <div class="form__radio-group">
+                                    <input type="radio" class='form__radio-input' id='wedding' name="event" required>
+                                    <label for="wedding" class="form__radio-label">
+                                        <span class="form__radio-btn"></span>
+                                        Wedding
+                                    </label>
+                                </div>
+                                <div class="form__radio-group">
+                                    <input type="radio" class='form__radio-input' id='function' name="event" required>
+                                    <label for="function" class="form__radio-label">
+                                        <span class="form__radio-btn"></span>
+                                        Other Function</label>
                                 </div>
                             </div>
-                        </div>
+
+                            <div class="form__group">
+                                <button class="btn btn--red">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
+
         </section>
     </main>
 
-    <footer> 
-        <div class='wrapper'>
-        &#169 Big Time Events & Entertainment
+    <footer class="footer"> 
+        <div class="footer__logo-box">
+            <img src="img/logo.png" alt="logo" class='footer__logo'>
+        </div>
+        <div class="footer__copywrite u-center-text">
+            &copy; Harvey Brindle // Big Time Events & Entertainment
         </div>
     </footer>
 <script src ='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
