@@ -5,3 +5,27 @@
         clear: both;
     }
 }
+
+//MEDIA QUERY MANAGER
+
+//0-600 PHONE
+//600-900 TAB PORTARIT
+//900-1200 TAB LANDSCAPE
+//1200-1800 DEFAULT STYLE
+//1800+ BIG DESKTOP
+
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 37.5em) { @content }; //600px
+    }
+    @if $breakpoint == tab-port {
+        @media only screen and  (max-width: 56.25em) { @content }; //900px
+    }
+    @if $breakpoint == tab-land {
+        @media only screen and  (max-width: 75em) { @content }; //1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media only screen and  (min-width: 112.5em) { @content }; //+1800
+    }
+}
